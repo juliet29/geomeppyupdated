@@ -2,14 +2,14 @@
 
 from itertools import product
 
-from geomeppyUpdated.geom.surfaces import (
+from geomeppyupdated.geom.surfaces import (
     get_adjacencies,
     getidfplanes,
     set_coords,
     set_matched_surfaces,
     set_unmatched_surface,
 )
-from geomeppyUpdated.utilities import almostequal
+from geomeppyupdated.utilities import almostequal
 
 if False:
     from ..idf import IDF  # noqa

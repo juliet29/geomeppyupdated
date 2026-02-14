@@ -1,3 +1,3 @@
 from loguru import logger
 
-logger.disable("geomeppyUpdated")
+logger.disable("geomeppyupdated")

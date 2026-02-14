@@ -14,7 +14,7 @@ from shapely.geometry import Polygon
 from shapely.ops import polygonize
 from shapely.ops import unary_union
 
-from geomeppyUpdated.geom.polygons import Polygon2D
+from geomeppyupdated.geom.polygons import Polygon2D
 from .polygons import intersect, Polygon3D
 from .vectors import Vector2D, Vector3D  # noqa
 from ..utilities import almostequal

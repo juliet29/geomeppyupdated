@@ -1,13 +1,13 @@
 """Tests for polygons."""
-from geomeppyUpdated.geom.polygons import (
+from geomeppyupdated.geom.polygons import (
     break_polygons,
     Polygon2D,
     Polygon3D,
     Vector2D,
     Vector3D,
 )
-from geomeppyUpdated.geom.segments import Segment
-from geomeppyUpdated.utilities import almostequal
+from geomeppyupdated.geom.segments import Segment
+from geomeppyupdated.utilities import almostequal
 
 
 def test_polygon_repr():

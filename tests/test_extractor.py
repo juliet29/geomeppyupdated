@@ -1,4 +1,4 @@
-from geomeppyUpdated.extractor import copy_constructions, copy_geometry
+from geomeppyupdated.extractor import copy_constructions, copy_geometry
 
 
 def test_copy_geometry(extracts_idf):

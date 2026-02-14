@@ -1,11 +1,11 @@
 """Tests for recipes."""
-from geomeppyUpdated.idf import IDF
-from geomeppyUpdated.geom.intersect_match import intersect_idf_surfaces, match_idf_surfaces
-from geomeppyUpdated.geom.polygons import Polygon3D
-from geomeppyUpdated.geom.vectors import Vector2D, Vector3D
-from geomeppyUpdated.recipes import rotate, set_wwr, translate, translate_to_origin
-from geomeppyUpdated.utilities import almostequal
-from geomeppyUpdated.view_geometry import _get_collections, _get_shading, _get_surfaces
+from geomeppyupdated.idf import IDF
+from geomeppyupdated.geom.intersect_match import intersect_idf_surfaces, match_idf_surfaces
+from geomeppyupdated.geom.polygons import Polygon3D
+from geomeppyupdated.geom.vectors import Vector2D, Vector3D
+from geomeppyupdated.recipes import rotate, set_wwr, translate, translate_to_origin
+from geomeppyupdated.utilities import almostequal
+from geomeppyupdated.view_geometry import _get_collections, _get_shading, _get_surfaces
 
 
 class TestTranslate:

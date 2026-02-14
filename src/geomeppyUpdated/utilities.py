@@ -1,4 +1,4 @@
-"""Utilities for use in geomeppyUpdated."""
+"""Utilities for use in geomeppyupdated."""
 from typing import Any  # noqa
 
 from six.moves import zip

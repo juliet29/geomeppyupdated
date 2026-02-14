@@ -1,5 +1,5 @@
 """Test for builder module."""
-from geomeppyUpdated.builder import Block
+from geomeppyupdated.builder import Block
 
 breaking_coords = [
     (531023.28, 183220.85),

@@ -4,8 +4,8 @@ import shutil
 import esoreader
 import pytest
 
-from geomeppyUpdated import IDF
-from geomeppyUpdated.extractor import copy_constructions
+from geomeppyupdated import IDF
+from geomeppyupdated.extractor import copy_constructions
 
 pytest.skip(allow_module_level=True)
 

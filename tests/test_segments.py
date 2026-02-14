@@ -1,6 +1,6 @@
 """Tests for Segment class, representing a line segment."""
-from geomeppyUpdated.geom.segments import Segment
-from geomeppyUpdated.geom.vectors import Vector3D
+from geomeppyupdated.geom.segments import Segment
+from geomeppyupdated.geom.vectors import Vector3D
 
 
 def test_segment_repr():

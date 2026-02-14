@@ -1,22 +1,22 @@
 [project]
-name = "geomeppyUpdated"
+name = "geomeppyupdated"
 version = "0.1.0"
 description = "Updated version of geomeppy"
 readme = "README.md"
 authors = [
-    { name = "Juliet Nwagwu Ume-Ezeoke", email = "jnwagwu@stanford.edu" }
+  { name = "Juliet Nwagwu Ume-Ezeoke", email = "jnwagwu@stanford.edu" },
 ]
 requires-python = ">=3.13"
 dependencies = [
-    "eppy>=0.5.63",
-    "esoreader>=1.2.3",
-    "loguru>=0.7.3",
-    "matplotlib>=3.10.8",
-    "pyclipper>=1.4.0",
-    "pypoly2tri>=0.0.3",
-    "pytest>=9.0.2",
-    "shapely>=2.1.2",
-    "transforms3d>=0.4.2",
+  "eppy>=0.5.63",
+  "esoreader>=1.2.3",
+  "loguru>=0.7.3",
+  "matplotlib>=3.10.8",
+  "pyclipper>=1.4.0",
+  "pypoly2tri>=0.0.3",
+  "pytest>=9.0.2",
+  "shapely>=2.1.2",
+  "transforms3d>=0.4.2",
 ]
 
 [build-system]

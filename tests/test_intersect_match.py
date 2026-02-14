@@ -5,16 +5,16 @@ import pytest
 from eppy.iddcurrent import iddcurrent
 from six import StringIO
 
-from geomeppyUpdated.geom.surfaces import minimal_set
-from geomeppyUpdated.idf import IDF
-from geomeppyUpdated.geom.intersect_match import (
+from geomeppyupdated.geom.surfaces import minimal_set
+from geomeppyupdated.idf import IDF
+from geomeppyupdated.geom.intersect_match import (
     get_adjacencies,
     intersect_idf_surfaces,
     match_idf_surfaces,
 )
-from geomeppyUpdated.geom.polygons import intersect, is_hole, Polygon3D
-from geomeppyUpdated.recipes import translate_coords
-from geomeppyUpdated.utilities import almostequal
+from geomeppyupdated.geom.polygons import intersect, is_hole, Polygon3D
+from geomeppyupdated.recipes import translate_coords
+from geomeppyupdated.utilities import almostequal
 
 
 class TestSetCoords:

@@ -1,8 +1,8 @@
 import pytest
 from six import StringIO
-from geomeppyUpdated.geom.core_perim import core_perim_zone_coordinates, get_core, get_perims
-from geomeppyUpdated.geom.polygons import Polygon2D
-from geomeppyUpdated import IDF
+from geomeppyupdated.geom.core_perim import core_perim_zone_coordinates, get_core, get_perims
+from geomeppyupdated.geom.polygons import Polygon2D
+from geomeppyupdated import IDF
 
 footprint = [(0, 0), (30, 0), (30, 20), (0, 20)]
 expected_footprint = {

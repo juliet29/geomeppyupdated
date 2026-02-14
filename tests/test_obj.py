@@ -1,5 +1,5 @@
 import os
-from geomeppyUpdated.io.obj import export_to_obj
+from geomeppyupdated.io.obj import export_to_obj
 
 EXAMPLES_DIR = "C:/EnergyPlusV9-1-0/ExampleFiles"
 

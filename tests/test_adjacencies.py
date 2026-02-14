@@ -1,7 +1,7 @@
 import pytest
 
-from geomeppyUpdated.geom.surfaces import get_adjacencies
-from geomeppyUpdated.geom.surfaces import set_coords
+from geomeppyupdated.geom.surfaces import get_adjacencies
+from geomeppyupdated.geom.surfaces import set_coords
 
 
 @pytest.fixture

@@ -440,9 +440,9 @@ class Polygon3D(Clipper3D, Polygon):
         poly = wkt.loads(wkt_poly)
         exterior = Polygon3D(poly.exterior.coords)
         if poly.interiors:
-            # make the exterior into a geomeppyUpdated poly
+            # make the exterior into a geomeppyupdated poly
             for inner_ring in poly.interiors:
-                # make the interior into a geomeppyUpdated poly
+                # make the interior into a geomeppyupdated poly
                 interior = Polygon3D(inner_ring.coords)
                 # find the nearest points on the exterior and interior
                 links = list(product(interior, exterior))

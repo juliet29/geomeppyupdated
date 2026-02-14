@@ -1,6 +1,6 @@
 """Core and perimeter zoning approach."""
 from itertools import product
-from geomeppyUpdated.geom.polygons import Polygon2D
+from geomeppyupdated.geom.polygons import Polygon2D
 
 
 def get_core(footprint, perim_depth=None):

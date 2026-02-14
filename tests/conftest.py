@@ -4,7 +4,7 @@ import pytest
 from eppy.iddcurrent import iddcurrent
 from six import StringIO
 
-from geomeppyUpdated.idf import IDF
+from geomeppyupdated.idf import IDF
 
 # if not os.getenv("CI"):
 #     matplotlib.use("Qt5Agg")

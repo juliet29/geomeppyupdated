@@ -1,5 +1,5 @@
 """
-This module contains the implementation of `geomeppyUpdated.IDF`.
+This module contains the implementation of `geomeppyupdated.IDF`.
 """
 
 import itertools

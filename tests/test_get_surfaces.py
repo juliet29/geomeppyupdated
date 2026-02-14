@@ -1,5 +1,5 @@
 """Tests for fetching surfaces."""
-from geomeppyUpdated.idf import EpBunch
+from geomeppyupdated.idf import EpBunch
 
 
 class TestSurfaces:

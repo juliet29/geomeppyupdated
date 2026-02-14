@@ -2,7 +2,7 @@
 from typing import Optional, TYPE_CHECKING  # noqa
 
 if TYPE_CHECKING:
-    from geomeppyUpdated import IDF
+    from geomeppyupdated import IDF
 from eppy.function_helpers import getcoords
 from eppy.iddcurrent import iddcurrent
 from six import StringIO
@@ -24,7 +24,7 @@ def view_idf(fname=None, idf_txt=None, test=False, idf=None):
     :param fname: Path to the IDF.
     :param idf_txt: The string representation of an IDF.
     """
-    from geomeppyUpdated import IDF
+    from geomeppyupdated import IDF
 
     try:
         plt.figure()

@@ -2,10 +2,10 @@
 import numpy as np
 from transforms3d._gohlketransforms import translation_matrix
 
-from geomeppyUpdated.geom.polygons import Polygon3D
-from geomeppyUpdated.geom.transformations import Transformation
-from geomeppyUpdated.geom.vectors import Vector3D
-from geomeppyUpdated.utilities import almostequal
+from geomeppyupdated.geom.polygons import Polygon3D
+from geomeppyupdated.geom.transformations import Transformation
+from geomeppyupdated.geom.vectors import Vector3D
+from geomeppyupdated.utilities import almostequal
 
 
 class TestTransformations:

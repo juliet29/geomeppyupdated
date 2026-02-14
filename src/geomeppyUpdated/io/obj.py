@@ -124,7 +124,7 @@ class ObjWriter(object):
         """
         with open(fname, "w") as f_out:
             f_out.write(
-                "# exported using geomeppyUpdated\n# https://github.com/jamiebull1/geomeppyUpdated\n"
+                "# exported using geomeppyupdated\n# https://github.com/jamiebull1/geomeppyupdated\n"
             )
             f_out.write("\n# vertices\n")
             for v in self.vertices:

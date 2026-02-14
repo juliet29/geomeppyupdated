@@ -1,8 +1,8 @@
 """Tests for issue previously raised and fixed, so we can be alerted if they start failing again."""
 import pytest
 
-from geomeppyUpdated.geom.polygons import Polygon3D
-from geomeppyUpdated.geom.surfaces import set_coords
+from geomeppyupdated.geom.polygons import Polygon3D
+from geomeppyupdated.geom.surfaces import set_coords
 
 
 @pytest.fixture
